@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/index.css">
+    <title>S-AES加密</title>
+</head>
+<body>
+<div class="box">
+    <h2>S_AES算法</h2>
+    <form method="GET", action='/S_DES'>
+        <div class="inputBox">
+            <input type="text" name="plaintext" >
+            <span style="font-size: medium">明文字符串</span>
+            <br>
+            <br>
+        </div>
+         <div class="inputBox">
+            <input type="text" name="key">
+            <span style="font-size: medium">密钥字符串</span>
+             <br>
+            <br>
+        </div>
+        <div class="inputBox">
+            <input type="text" name="ciphertext" >
+            <span style="font-size: medium">密文字符串</span>
+            <br>
+       </div>
+        <div class="labelBox">
+            <span style="font-weight: bold;font-size: medium">返回信息</span>
+            <br>
+            <br>
+            <span type="label" class="label" name="message">
+                <p>{{message}}</p>
+            </span>
+            <br>
+            <br>
+            <br>
+        </div>
+        <div class="buttonBox">
+             <input type="submit" value="加密" style="position: absolute;left: 800px;top:650px">
+        </div>
+        <br>
+        <div class="buttonBox1" >
+            <input type="submit" value="解密" style="position: absolute;left: 950px;top:650px">
+        </div>
+        <br>
+    </form>
+    </div>
+</body>
+</html>
+
