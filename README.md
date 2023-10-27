@@ -23,7 +23,7 @@ Run app.py file, terminal input:
 python app.py 
 ```
 #### Key Generation
-keep the length of plaintext 16 bit while encription or keep the length of ciphertext 16 bit while decription
+Keep the length of plaintext 16 bit while encription or keep the length of ciphertext 16 bit while decription
 generate a 16 bit binary key for basic-encry/decry, or choose a more than 16 bit binary key (eg: 32bit key for dual-encry/decry，48 bit binary key for triple-encry/decry and so on) for multiple-encry
 sample code:
 ```python
@@ -36,7 +36,7 @@ key='0110010010101001111111111111111'                   #dual-encry/decry
 key='01100100101010011111111111111110000000000000000'   #triple-encry/decry
 ```
 #### Plaintext Input
-input a plaintext to suppose this encrypt program, you can choose ASCII、string or binary string to input. As for binary string input, keep the length of ciphertext 16 bit while encription, you can choose a 16 bit binary-string or more than 16 bit binary-string (eg: k*16 bit for CBC_encry where k is a positive integer) 
+Input a plaintext to suppose this encrypt program, you can choose ASCII、string or binary string to input. As for binary string input, keep the length of ciphertext 16 bit while encription, you can choose a 16 bit binary-string or more than 16 bit binary-string (eg: k*16 bit for CBC_encry where k is a positive integer) 
 example:
 ```python
 key='1111111111111111'
@@ -56,7 +56,7 @@ Run app.py file, terminal input:
 ```
 
 ##### Ciphertext Input
-input a ciphertext to suppose this encrypt program, you can choose ASCII、string or binary string to input as well. As for binary string input, keep the length of ciphertext 16 bit while encription, you can choose a 16 bit binary-string or more than 16 bit binary-string (eg: k*16 bit for CBC_encry where k is a positive integer) 
+Input a ciphertext to suppose this encrypt program, you can choose ASCII、string or binary string to input as well. As for binary string input, keep the length of ciphertext 16 bit while encription, you can choose a 16 bit binary-string or more than 16 bit binary-string (eg: k*16 bit for CBC_encry where k is a positive integer) 
 example:
 ```python
 #basic-decry
