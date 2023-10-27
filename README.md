@@ -114,6 +114,6 @@ midtextfromdecry:1111011000000011
 ```
 
 ### Reference Files
-[More details for S-AES](https://terenceli.github.io/%E6%8A%80%E6%9C%AF/2014/04/17/SDES)  
+[More details for S-AES](https://github.com/semygloss/S-AES/blob/main/Source-new/S-AES.pdf)  
 [Test result please click here to download](https://github.com/semygloss/S-AES/blob/main/Source-new/S-AES%E6%B5%8B%E8%AF%95%E7%BB%93%E6%9E%9C.docx)  
 [More details for boxes](https://shimo.im/docs/zm1FlCxE3eYCQSSo/)
